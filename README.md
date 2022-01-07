@@ -17,6 +17,8 @@ EAD is the predicted amount of loss a bank may be exposed to when a debtor defau
 3. Upload the .ipynb files to your google drive's folder named "Colab Notebooks"
 4. Upload the dataset to your drive
 5. Use the command: 
+ ```
    from google.colab import drive
    drive.mount('/content/drive/<folder path to your dataset>')
+   ```
 6. Now you can run the whole python code!
