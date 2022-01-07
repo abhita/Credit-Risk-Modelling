@@ -10,3 +10,13 @@ Loss given default (LGD) is the amount of money a bank or other financial instit
 
 # EAD: 
 EAD is the predicted amount of loss a bank may be exposed to when a debtor defaults on a loan. Banks often calculate an EAD value for each loan and then use these figures to determine their overall default risk. EAD is a dynamic number that changes as a borrower repays a lender.
+
+# Steps to run it in your local machine:
+1. Download the .ipynb files
+2. Download the given dataset
+3. Upload the .ipynb files to your google drive's folder named "Colab Notebooks"
+4. Upload the dataset to your drive
+5. Use the command: 
+   from google.colab import drive
+   drive.mount('/content/drive/<folder path to your dataset>')
+6. Now you can run the whole python code!
